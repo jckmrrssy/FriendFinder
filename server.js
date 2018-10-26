@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 // Routes
 let htmlRoutes = require("./app/routing/htmlRoutes")
-htmlRoutes(app);
+htmlRoutes(app, path);
 
 let apiRoutes = require("./app/routing/apiRoutes")
 apiRoutes(app);
