@@ -12,7 +12,7 @@ module.exports = function(app) {
         for (let i in friendsArrayOfObjects) {
             var diff = 0
             for (let k in friendsArrayOfObjects[i].scores) {
-                var checked = newFriend[i].scores[k];
+                var checked = friendsArrayOfObjects[i].scores[k];
                 var current = req.body.scores[k]
                 diff += Math.abs(parseInt(checked) - parseInt(current));
             }
