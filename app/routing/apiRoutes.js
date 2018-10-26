@@ -1,7 +1,8 @@
+let friendsArrayOfObjects = require("../data/friends");
 
 module.exports = function(app) {
     app.get("/api/friends", (req, res) => {
-        return res.json("*FRIENDS ARRAY HERE*")
+        return res.json(friendsArrayOfObjects);
     });
 
     app.post("/api/friends", (req, res) => {

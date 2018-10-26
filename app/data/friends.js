@@ -1,2 +1,5 @@
 
-let friendsArrayOfObjects = [];
+let friendsArrayOfObjects = []
+
+
+module.exports = friendsArrayOfObjects

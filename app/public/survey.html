@@ -158,6 +158,11 @@
         </div>
     </div>
     <script type="text/javascript">
+
+        function clear() {
+            $("#userName").val("");
+            $("#userPicture").val("");
+        };
         // Capture values from survey and put into an object 
         $("#submitGuy").on("click", function() {
             let newFriend = {
@@ -165,8 +170,15 @@
                 picture: $("#userPicture").val().trim(),
                 scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(),
                         $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(),]
-            }
-        })
+            };
+            console.log(newFriend);
+            $.post("/api/friends", newFriend)
+            .then(function(data) {
+                console.log(data);
+            })
+
+            clear();
+        });
     </script>
 </body>
 </html>
