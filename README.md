@@ -10,11 +10,11 @@ To run the app locally, you will first need to git clone the repository to your 
 
 HTTPS:
 ````
-https://github.com/jckmrrssy/FriendFinder.git
+$ git clone https://github.com/jckmrrssy/FriendFinder.git
 ````
 SSH:
 ````
-git@github.com:jckmrrssy/FriendFinder.git
+$ git clone git@github.com:jckmrrssy/FriendFinder.git
 ````
 
 Once cloned, cd into the repository and install the necessary dependencies by running:
