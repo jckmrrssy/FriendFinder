@@ -2,7 +2,7 @@
 
 This match making application will help you find the long lost friend you didn't know you were missing. It has ten carefully selected statements, and for each one, you select on a scale of 1-5 how much you agree with it. It will then display the best match for you based on your responses. The app uses Express.js, Node.js, and RESTful API routes.
 
-[Try it out](https://jckmrrssy-friend-finder.herokuapp.com/)
+## [Try it out](https://jckmrrssy-friend-finder.herokuapp.com/)
 
 ## Installing
 
