@@ -4,6 +4,8 @@ This match making application will help you find the long lost friend you didn't
 
 ## [Try it out](https://jckmrrssy-friend-finder.herokuapp.com/)
 
+![image](./app/public/friendfinder.png)
+
 ## Installing
 
 To run the app locally, you will first need to git clone the repository to your local machine. 
